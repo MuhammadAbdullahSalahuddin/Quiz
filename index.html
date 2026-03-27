@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abdullah | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">MA.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="container home-content">
+            <div class="text-zone">
+                <p class="greeting">System.out.println("Hello, World!")</p>
+                <h1>I'm <span class="highlight">Muhammad Abdullah</span></h1>
+                <h2>Cybersecurity Student & Blue Teamer</h2>
+                <p>Registration #: SP24-BCT-021</p>
+                <a href="ITsolera Booklet.pdf" download class="btn">Download My Booklet</a>
+            </div>
+            <div class="image-zone">
+                <div class="profile-pic-placeholder">
+                    <img src="round_photo.jpg" alt="Muhammad Abdullah">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a 5th-semester BS Cybersecurity student at COMSATS University Islamabad. I am highly passionate about digital security, specifically focusing on the defensive side as a blue teamer.</p>
+                <p>My academic background and hands-on experience revolve around SIEM, IDS/IPS, Firewalls, XDR, and alert enrichment. I am CompTIA Security+ SY701 and ISC2 CC certified, constantly striving to understand the evolving threat landscape and implement robust network defenses.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Security & Networks</h3>
+                    <ul>
+                        <li>Wazuh (SIEM/XDR)</li>
+                        <li>pfSense & pfBlockerNG</li>
+                        <li>Suricata IDS/IPS</li>
+                        <li>Incident Response</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Systems & Virtualization</h3>
+                    <ul>
+                        <li>Kali Linux (Bare Metal)</li>
+                        <li>Docker</li>
+                        <li>VMware Enterprise Labs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming & Databases</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java & C++</li>
+                        <li>SQL & MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <img src="YOUR_PROJECT_1_IMAGE.jpg" alt="Threat Simulation Lab">
+                    </div>
+                    <div class="project-info">
+                        <h3>Threat Simulation & IR Lab</h3>
+                        <p>Architected a 3-node virtual network to simulate attacks. Centralized log management using Wazuh and developed custom Suricata signatures to detect malware cloning.</p>
+                        
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <img src="YOUR_PROJECT_2_IMAGE.jpg" alt="Geo-Fencing Lab">
+                    </div>
+                    <div class="project-info">
+                        <h3>Geo-Fencing & DNS Defense</h3>
+                        <p>Deployed a pfSense firewall enforcing geo-based IP blocking with MaxMind. Integrated DNS-level filtering and visualized blocked attempts on a Wazuh dashboard.</p>
+                        
+                        <div style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="ITSOLERA Internship task2.pdf" download class="btn-small" style="margin-top: 0;">Download Report</a>
+                            
+                            <a href="https://www.linkedin.com/posts/muhammadabdullahsalahuddin_itsolera-internship-task2-activity-7364392984571777024-TFNe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDwJcgBZx86DCjIVI-tBW5Urv_6w6V6YKs" target="_blank" class="btn-small" style="margin-top: 0; background-color: transparent; border: 1px solid var(--accent); color: var(--accent);">View on LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <img src="YOUR_PROJECT_3_IMAGE.jpg" alt="Crypto App">
+                    </div>
+                    <div class="project-info">
+                        <h3>RBAC Cryptographic App</h3>
+                        <p>Built a Python security tool implementing AES, RSA, and a hybrid algorithm for text/file encryption, featuring a Role-Based Access Control system.</p>
+                        <a href="https://www.linkedin.com/posts/muhammadabdullahsalahuddin_python-pyqt6-cybersecurity-activity-7350823903369289728-isE3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDwJcgBZx86DCjIVI-tBW5Urv_6w6V6YKs" target="_blank" class="btn-small" style="margin-top: 0; background-color: transparent; border: 1px solid var(--accent); color: var(--accent);">View On Linkedlin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">Resume</h2>
+            <p>Download my full resume to see a complete history of my certifications, internships, and educational background.</p>
+            <br>
+            <a href="AResume1.2.pdf" download class="btn">Download Resume (PDF)</a>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-wrapper">
+                <form id="contactForm" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <h3>Connect with me</h3>
+                    <p>muhammadabdullahsalahuddin@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/muhammadabdullahsalahuddin" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/muhammadabdullahsalahuddin" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
